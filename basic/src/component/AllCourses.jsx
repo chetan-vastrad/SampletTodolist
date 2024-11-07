@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./AllCourses.module.css"
 const AllCourses = (props) =>{
-    const [renderidingData,setRenderidingData]=useState(props.intialData);    
+    const renderidingData= (props.intialData);    
     return(
     <div className={styles.allCourses}>
             {renderidingData.map((data,index)=>{

@@ -21,19 +21,27 @@ font-size: 20px;
 }
 .inputdiv{
     display: block;
-    margin-bottom: 10px;
     padding: 7px;
     width: 90%;
     border: 2px solid #ccc;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 600;
     border-radius: 4px;
 }
+.inputdivError{
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.199) transparent;
+}
+.erroTag{
+    color: red;
+    font-size: 10px;
+    margin-top: 2px;
+}
 .inputdiv:focus{
   outline: none;
-  border: 2px solid black;
 }
 .submitBtn{
+    margin-top: 10px;
     padding: 10px;
     background-color: white;
     border-radius:5px;
