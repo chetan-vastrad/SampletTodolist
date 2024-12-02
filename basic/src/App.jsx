@@ -10,8 +10,8 @@ function App() {
 setAllData((prev)=>{
   return [...prev,{course:data}]
 });
-
   }
+  
     
 return (
   <div>
