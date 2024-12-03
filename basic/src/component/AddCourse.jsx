@@ -26,10 +26,10 @@ const AddCourse = (props) => {
         <div className={styles.maindiv}>
             <div className={styles.subdiv}>
                 <form onSubmit={addCouserHandler}>
-                    <label className={`${styles.lableTag} ${!isValid ? styles.errorlableTag : styles.lableTag}`}>Add Course</label>
+                    <label className={`${styles.lableTag} ${!isValid ? styles.errorlableTag : styles.lableTag}`}>To Do List</label>
                     <input type="search" className={`${styles.inputdiv} ${!isValid ? styles.inputdivError : styles.inputdiv}`} onChange={enterCourseHandeler} value={courseName} />
                     {!isValid && <p className={styles.erroTag}>Please Filup This Field *</p>}
-                    <button type="submit" className={styles.submitBtn}>Add Course</button>
+                    <button type="submit" className={styles.submitBtn}>Add To Do</button>
                 </form>
             </div>
         </div>

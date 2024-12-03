@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import AddCourse from './component/AddCourse'
 import AllCourses from './component/AllCourses';
-const dummyData=[{course:"Test"},{course:"Test2"}];
+const dummyData=[{course:"Go To Movie"},{course:"Go To Shopping"}];
 
 function App() {
   
